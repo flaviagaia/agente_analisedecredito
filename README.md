@@ -11,6 +11,10 @@ O sistema responde perguntas como:
 - há sinais de inadimplência ou utilização alta pesando na decisão?
 - quais condições fariam sentido em um cenário de risco moderado?
 
+## Interface
+
+![Interface do agente de análise de crédito](assets/agente_credito.jpg)
+
 ## Arquitetura
 
 ```mermaid
@@ -352,6 +356,10 @@ Possíveis evoluções para uma versão mais robusta:
 ## English Version
 
 `Agente Analise de Credito` is a `Semantic Kernel` MVP for intelligent credit analysis. The project interprets loan applications, computes heuristic underwriting metrics, classifies a credit decision, explains the rationale, and suggests approval conditions or mitigants. When the Semantic Kernel runtime is unavailable, a deterministic fallback preserves the same output contract for local reproducibility.
+
+## Interface
+
+![Credit analysis agent interface](assets/agente_credito.jpg)
 
 ### Technical Highlights
 
