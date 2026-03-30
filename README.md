@@ -162,6 +162,14 @@ As propostas demo incluem:
 }
 ```
 
+## Persistência e Artefatos
+
+O script [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_analisedecredito/main.py) gera o artefato:
+
+- `data/processed/credit_analysis_report.json`
+
+Esse arquivo é produzido em runtime para auditoria local e não faz parte dos arquivos versionados do repositório.
+
 ## Interface Streamlit
 
 O app funciona como um `inspection console` para:
@@ -209,3 +217,4 @@ streamlit run app.py
 - deterministic fallback for local execution
 - structured credit application context as the grounding layer
 - Streamlit inspection console
+- persisted runtime artifact generated at execution time in `data/processed/credit_analysis_report.json`
