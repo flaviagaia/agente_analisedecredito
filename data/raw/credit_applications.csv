@@ -1,0 +1,4 @@
+application_id,customer_name,requested_amount_br,term_months,monthly_income_br,monthly_debt_obligations_br,credit_score,employment_months,delinquencies_12m,credit_utilization_pct,existing_loans,customer_segment
+CR-1001,Bruna Almeida,28000,24,7200,1650,742,36,0,34,1,prime
+CR-1002,Diego Pereira,45000,36,5100,2300,598,11,2,82,3,mass_market
+CR-1003,Fernanda Costa,18000,18,6400,900,681,18,0,57,2,near_prime
