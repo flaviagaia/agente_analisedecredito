@@ -49,17 +49,17 @@ O projeto foi estruturado em quatro camadas:
 
 ## Estrutura do Projeto
 
-- [src/sample_data.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_analisedecredito/src/sample_data.py)
+- [src/sample_data.py](src/sample_data.py)
   - base demo de propostas de crédito.
-- [src/tools.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_analisedecredito/src/tools.py)
+- [src/tools.py](src/tools.py)
   - tools de cálculo, classificação e explicação.
-- [src/agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_analisedecredito/src/agent.py)
+- [src/agent.py](src/agent.py)
   - orquestração com `Semantic Kernel` e fallback.
-- [app.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_analisedecredito/app.py)
+- [app.py](app.py)
   - console técnico em `Streamlit`.
-- [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_analisedecredito/main.py)
+- [main.py](main.py)
   - execução rápida e persistência do relatório.
-- [tests/test_agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_analisedecredito/tests/test_agent.py)
+- [tests/test_agent.py](tests/test_agent.py)
   - validação do fluxo principal.
 
 ## Como o Semantic Kernel foi modelado
@@ -270,7 +270,7 @@ Esse contrato único facilita integração posterior com APIs, pipelines de deci
 
 ## Persistência e Artefatos
 
-O script [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_analisedecredito/main.py) gera o artefato:
+O script [main.py](main.py) gera o artefato:
 
 - `data/processed/credit_analysis_report.json`
 
@@ -301,7 +301,7 @@ Na prática, o Streamlit atua como uma `debuggable presentation layer`, permitin
 
 ## Validação
 
-Os testes em [tests/test_agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_analisedecredito/tests/test_agent.py) verificam:
+Os testes em [tests/test_agent.py](tests/test_agent.py) verificam:
 
 - presença de `risk_flags` nas métricas;
 - retorno de decisão válida;
